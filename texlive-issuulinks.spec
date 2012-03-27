@@ -1,12 +1,12 @@
-# revision 25534
+# revision 25742
 # category Package
 # catalog-ctan /macros/latex/contrib/issuulinks
-# catalog-date 2012-02-28 11:35:03 +0100
+# catalog-date 2012-03-23 12:07:20 +0100
 # catalog-license lppl1.3
-# catalog-version 1.0
+# catalog-version 1.1
 Name:		texlive-issuulinks
-Version:	1.0
-Release:	2
+Version:	1.1
+Release:	1
 Summary:	Produce external links instead of internal ones
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/issuulinks
@@ -20,15 +20,15 @@ Requires(pre):	texlive-tlpkg
 Requires(post):	texlive-kpathsea
 
 %description
-The PDF visualizer ISSUU is a popular service allowing to show
-PDF documents "a page a time". Due to the way it is
-implemented, internal links in these documents are not allowed.
-Instead, they must be converted to external ones in the form
-http://issuu.com/action/page?page=PAGENUMBER. The package
-patches hyperref to produce external links in the required form
-instead of internal links created by \ref, \cite and other
-commands. Since the package redefines the internals of
-hyperref, it must be loaded it AFTER hyperref.
+The PDF visualizer http://issuu.com/ISSUU is a popular service
+allowing to show PDF documents "a page a time". Due to the way
+it is implemented, internal links in these documents are not
+allowed. Instead, they must be converted to external ones in
+the form http://issuu.com/action/page?page=PAGENUMBER. The
+package patches hyperref to produce external links in the
+required form instead of internal links created by \ref, \cite
+and other commands. Since the package redefines the internals
+of hyperref, it must be loaded it AFTER hyperref.
 
 %post
     %{_sbindir}/texlive.post
