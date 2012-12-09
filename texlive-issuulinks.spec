@@ -59,3 +59,19 @@ of hyperref, it must be loaded it AFTER hyperref.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Mar 27 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.1-1
++ Revision: 787630
+- Update to latest release.
+
+* Fri Mar 09 2012 Per Øyvind Karlsen <peroyvind@mandriva.org> 1.0-2
++ Revision: 783481
+- rebuild without scriptlet dependencies
+
+* Wed Mar 07 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.0-1
++ Revision: 783010
+- Import texlive-issuulinks
+- Import texlive-issuulinks
+
