@@ -6,7 +6,7 @@
 # catalog-version 1.1
 Name:		texlive-issuulinks
 Version:	1.1
-Release:	1
+Release:	2
 Summary:	Produce external links instead of internal ones
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/issuulinks
