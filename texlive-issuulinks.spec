@@ -1,6 +1,6 @@
 Name:		texlive-issuulinks
 Version:	25742
-Release:	1
+Release:	2
 Summary:	Produce external links instead of internal ones
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/issuulinks
