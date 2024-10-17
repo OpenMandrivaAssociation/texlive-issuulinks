@@ -3,7 +3,7 @@ Version:	25742
 Release:	2
 Summary:	Produce external links instead of internal ones
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/issuulinks
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/issuulinks
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/issuulinks.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/issuulinks.doc.r%{version}.tar.xz
